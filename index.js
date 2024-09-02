@@ -7,6 +7,9 @@ const bot = new Bot(process.env.BOT_API_KEY);
 require("./src/commands/start")(bot);
 
 //unknown messages
-require("./src/unknown-message/unknown-message")(bot);
+require("./src/unknown-messages/unknown-messages")(bot);
+
+//menu of commands
+require("./src/commands/setMyCommads")(bot);
 
 bot.start();
