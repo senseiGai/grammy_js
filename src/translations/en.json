@@ -1,0 +1,28 @@
+{
+  "Good Morning": "Good Morning",
+  "Good Afternoon": "Good Afternoon",
+  "Good Evening": "Good Evening",
+  "Good Night": "Good Night",
+  "changeLanguage": "Choose a preferred language 👇",
+  "voiceMessages": [
+    "Really like your voice",
+    "Are you a singer?",
+    "Your voice sounds like a lullaby"
+  ],
+  "photoMessages": [
+    "Nice pic",
+    "Good photo",
+    "Are you a professional photographer?"
+  ],
+  "textMessages": [
+    "I don't really know what to answer...",
+    "Really?",
+    "Are you sure about what you typed?",
+    "I've no answer..."
+  ],
+  "stickerMessages": [
+    "Nice sticker!",
+    "I will save it!",
+    "Unfortunately, do not know how to answer on it..."
+  ]
+}

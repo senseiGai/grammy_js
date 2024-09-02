@@ -4,5 +4,9 @@ module.exports = (bot) => {
       command: "start",
       description: "Start a bot",
     },
+    {
+      command: "language",
+      description: "Change the language",
+    },
   ]);
 };
