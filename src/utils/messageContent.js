@@ -17,8 +17,15 @@ const textMessages = [
   "I've no answer...",
 ];
 
+const stickerMessages = [
+  "Nice sticker!",
+  "I will save it!",
+  "Unfortunatelly, do not know how to answer on it...",
+];
+
 module.exports = {
   voiceMessages,
   photoMessages,
   textMessages,
+  stickerMessages,
 };
