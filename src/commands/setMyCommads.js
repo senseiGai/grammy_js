@@ -20,5 +20,13 @@ module.exports = (bot) => {
       command: "share",
       description: "Share your data",
     },
+    {
+      command: "inline_keyboard",
+      description: "Inline keyboard",
+    },
+    {
+      command: "support",
+      description: "Support",
+    },
   ]);
 };

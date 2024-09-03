@@ -21,9 +21,6 @@ require("./src/commands/creator")(bot);
 require("./src/language-handlers/englishLanguage")(bot);
 require("./src/language-handlers/russianLanguage")(bot);
 
-//custom filter
-// require("./src/custom-filter/custom-filter")(bot);
-
 // another way to use keyboard more customisable
 require("./src/commands/mood")(bot);
 
@@ -32,6 +29,21 @@ require("./src/commands/share")(bot);
 
 //spark
 require("./src/spark/spark")(bot);
+
+//inline keyboard
+require("./src/commands/inline_keyboard")(bot);
+
+//callback query
+require("./src/callback-query/callback-query")(bot);
+
+//bot on callback query
+require("./src/callback-query/bot-on-callback-query")(bot);
+
+//support command
+require("./src/commands/support")(bot);
+
+//custom filter
+// require("./src/custom-filter/custom-filter")(bot);
 
 //unknown messages
 require("./src/unknown-messages/unknown-messages")(bot);

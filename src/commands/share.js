@@ -13,7 +13,9 @@ module.exports = (bot) => {
     return [Keyboard.text(label)];
   });
 
-  const shareKeyboard = Keyboard.from(rows).resized();
+  const shareKeyboard = Keyboard.from(rows)
+    .placeholder("Share your data")
+    .resized();
 
   bot.command("share", async (ctx) => {
     await ctx.reply("Share your data please!!!", {
