@@ -9,6 +9,14 @@ module.exports = (bot) => {
       description: "Change the language",
     },
     {
+      command: "support",
+      description: "Support",
+    },
+    {
+      command: "menu",
+      description: "Bot menu",
+    },
+    {
       command: "creator",
       description: "Creator of the bot",
     },
@@ -23,10 +31,6 @@ module.exports = (bot) => {
     {
       command: "inline_keyboard",
       description: "Inline keyboard",
-    },
-    {
-      command: "support",
-      description: "Support",
     },
   ]);
 };

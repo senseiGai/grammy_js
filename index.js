@@ -1,9 +1,11 @@
 require("dotenv").config();
 const { Bot, session } = require("grammy");
+const { hydrate } = require("@grammyjs/hydrate");
 
 const bot = new Bot(process.env.BOT_API_KEY);
 
 bot.use(session({ initial: () => ({ language: "en" }) }));
+bot.use(hydrate());
 
 //menu of commands
 require("./src/commands/setMyCommads")(bot);
@@ -13,6 +15,9 @@ require("./src/commands/start")(bot);
 
 //change language
 require("./src/commands/language")(bot);
+
+//menu
+require("./src/commands/menu")(bot);
 
 //creator of the bot
 require("./src/commands/creator")(bot);
